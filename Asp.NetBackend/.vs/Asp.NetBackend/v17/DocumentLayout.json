@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Asp.NetBackend\\Models\\Task.cs",
               "ToolTip": "C:\\Users\\muham\\OneDrive\\Desktop\\Coding\\FullStack\\Asp.NetBackend\\Asp.NetBackend\\Models\\Task.cs",
               "RelativeToolTip": "Asp.NetBackend\\Models\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T14:02:52.069Z",
               "EditorCaption": ""
@@ -71,7 +71,8 @@
               "RelativeToolTip": "Asp.NetBackend\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:39:00.856Z"
+              "WhenOpened": "2025-05-03T13:39:00.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +84,8 @@
               "RelativeToolTip": "Asp.NetBackend\\Controllers\\TasksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:38:17.431Z"
+              "WhenOpened": "2025-05-03T13:38:17.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,7 +97,8 @@
               "RelativeToolTip": "Asp.NetBackend\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:37:55.991Z"
+              "WhenOpened": "2025-05-03T13:37:55.991Z",
+              "EditorCaption": ""
             }
           ]
         }
