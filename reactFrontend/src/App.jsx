@@ -4,7 +4,7 @@ function App(){
     const [products, setProducts] = useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:7065/products')
+        fetch('https://localhost:7065/products')
         .then(response => response.json())
         .then(data => setProducts(data))
         .catch(error => console.error("Error fetching products:", error));
@@ -21,3 +21,5 @@ function App(){
         </div>
     );
 }
+
+export default App;
