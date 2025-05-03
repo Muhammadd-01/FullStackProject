@@ -2,11 +2,11 @@
 {
     public class Task
     {
-        public int id { get; set; }
+        public int Id { get; set; }
 
-        public string name { get; set; }
+        public string Name { get; set; }
 
-        public bool isCompleted { get; set; }
+        public bool IsCompleted { get; set; }
 
     }
 }
