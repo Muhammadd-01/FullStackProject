@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{814A067C-267A-46DC-A1E7-739B628FD510}|Asp.NetBackend\\Asp.NetBackend.csproj|c:\\users\\muham\\desktop\\coding\\fullstackproject\\asp.netbackend\\asp.netbackend\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{814A067C-267A-46DC-A1E7-739B628FD510}|Asp.NetBackend\\Asp.NetBackend.csproj|solutionrelative:asp.netbackend\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{814A067C-267A-46DC-A1E7-739B628FD510}|Asp.NetBackend\\Asp.NetBackend.csproj|c:\\users\\muham\\desktop\\coding\\fullstackproject\\asp.netbackend\\asp.netbackend\\asp.netbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{814A067C-267A-46DC-A1E7-739B628FD510}|Asp.NetBackend\\Asp.NetBackend.csproj|solutionrelative:asp.netbackend\\asp.netbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -39,11 +43,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Asp.NetBackend",
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Asp.NetBackend\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Models\\Task.cs",
+              "RelativeToolTip": "Asp.NetBackend\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:02:52.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Asp.NetBackend.csproj",
               "DocumentMoniker": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj",
               "RelativeDocumentMoniker": "Asp.NetBackend\\Asp.NetBackend.csproj",
-              "ToolTip": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj",
-              "RelativeToolTip": "Asp.NetBackend\\Asp.NetBackend.csproj",
+              "ToolTip": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj*",
+              "RelativeToolTip": "Asp.NetBackend\\Asp.NetBackend.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-03T14:00:36.507Z",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Program.cs",
               "RelativeDocumentMoniker": "Asp.NetBackend\\Program.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Asp.NetBackend\\Controllers\\TasksController.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Asp.NetBackend\\Controllers\\ProductsController.cs",
