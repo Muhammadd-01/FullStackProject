@@ -23,6 +23,19 @@ function TaskList(){
             return;
         }
 
-        const newTask
-    }
+        const newTask = { name: taskName, completed: false};
+        fetch("https://localhost:7246/tasks",{
+            method: "Post",
+            headers:{"Content-Type":"application/json"},
+            body: JSON.stringify(newTask),
+        })
+        .then((response)=> response.json())
+        .then((data)=>{
+            setTasks((prevTasks)=>[...prevTasks,data]);
+            setTaskName("");  //Clear the input field
+        })
+        .catch((error)=> console.error("Error adding task", error));
+    };
+
+    //Update Task Completion Status
 }
