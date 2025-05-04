@@ -1,4 +1,4 @@
-import React ,{usestate , useEffect} from 'react';
+import React ,{useState , useEffect} from 'react';
 
 function TaskList(){
     const [tasks, setTasks]= useState([]);
@@ -83,7 +83,7 @@ function TaskList(){
             <button onClick={addTask}> Add Task</button>
 
             <ul>
-                {tasks.map((taks)=>(
+                {tasks.map((task)=>(
                     <li key={task.id}>
 
                         <input type="checkbox" checked={task.isCompleted} onChange={() => toggleCompletion(task.id, task.isCompleted)}/>  
@@ -102,3 +102,5 @@ function TaskList(){
         </div>
     );
 }
+
+export default TaskList;
