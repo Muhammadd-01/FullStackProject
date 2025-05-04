@@ -49,7 +49,7 @@ function TaskList(){
         .then((response)=> response.json())
         .then((updatedTask)=>{
             setTasks((prevTasks)=>
-            prevTasks.manp((task)=>
+            prevTasks.map((task)=>
             task.id === updatedTask.id ? updatedTask : task
         
         )
