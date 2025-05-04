@@ -39,14 +39,14 @@ function TaskList(){
 
     //Update Task Completion Status
 
-    const toggleCompletion = {id, currentStatus} => {
+    const toggleCompletion= (id, currentStatus) => {
         fetch(`https://localhost:7246/tasks/${id}`,{
 
             method : "PUT",
             headers:{"Content-Type": "application/json"},
             body: JSON.stringify({id, isCompleted: !currentStatus}),
         })
-        ,then((response)=> response.json())
+        .then((response)=> response.json())
         .then((updatedTask)=>{
             setTasks((prevTasks)=>
             prevTasks.manp((task)=>
@@ -59,4 +59,46 @@ function TaskList(){
     }
 
 
+
+    //Delete a Task
+
+    const deleteTask = (id)=>{
+        fetch(`https://localhost:7246/tasks/${id}`,{
+            method: "DELETE"
+        })
+        .then(()=>{
+            setTasks((prevTasks)=> prevTasks.filter((task)=> task.id !==id));
+        })
+
+        .catch((error)=> console.error("Error deleting task", error));
+    }
+
+
+    return(
+        <div>
+            <h1>Task Manager</h1>
+
+            <input type="text" value={taskName} onChange ={(e)=> setTaskName(e.target.value)}  placeholder="Add a New Task"/>
+
+            <button onClick={addTask}> Add Task</button>
+
+            <ul>
+                {tasks.map((taks)=>(
+                    <li key={task.id}>
+
+                        <input type="checkbox" checked={task.isCompleted} onChange={() => toggleCompletion(task.id, task.isCompleted)}/>  
+
+                        {task.name} - {task.isCompleted ? "Completed": "Not Completed"}
+                        <button onClick={() => deleteTask(task.id)}>Delete</button>
+                    </li>
+
+                
+
+)
+
+                )}
+            </ul>
+            
+        </div>
+    );
 }
