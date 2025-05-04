@@ -38,4 +38,25 @@ function TaskList(){
     };
 
     //Update Task Completion Status
+
+    const toggleCompletion = {id, currentStatus} => {
+        fetch(`https://localhost:7246/tasks/${id}`,{
+
+            method : "PUT",
+            headers:{"Content-Type": "application/json"},
+            body: JSON.stringify({id, isCompleted: !currentStatus}),
+        })
+        ,then((response)=> response.json())
+        .then((updatedTask)=>{
+            setTasks((prevTasks)=>
+            prevTasks.manp((task)=>
+            task.id === updatedTask.id ? updatedTask : task
+        
+        )
+    )
+        })
+        .catch((error)=> console.error("Errror Updating task", error));
+    }
+
+
 }

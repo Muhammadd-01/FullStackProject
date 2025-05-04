@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\OneDrive\\Desktop\\Coding\\FullStack\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj",
       "projectName": "Asp.NetBackend",
-      "projectPath": "C:\\Users\\muham\\OneDrive\\Desktop\\Coding\\FullStack\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj",
+      "projectPath": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\Asp.NetBackend.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\OneDrive\\Desktop\\Coding\\FullStack\\Asp.NetBackend\\Asp.NetBackend\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Desktop\\Coding\\FullStackProject\\Asp.NetBackend\\Asp.NetBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
